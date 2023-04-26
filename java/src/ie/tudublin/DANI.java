@@ -14,6 +14,20 @@ public class DANI extends PApplet {
 		//fullScreen(SPAN);
 	}
 
+	
+	public void loadFile()
+	{
+		loadStrings("small.txt");
+		//split(line, ' ');
+		//w.replaceAll("[^\\w\\s]","");
+		//s.toLowerCase();
+	}
+
+	public void findWord(String word)
+	{
+
+	}
+
     String[] sonnet;
 
     public String[] writeSonnet()
@@ -46,8 +60,4 @@ public class DANI extends PApplet {
         
 	}
 
-	public void Follow()
-	{
-
-	}
 }

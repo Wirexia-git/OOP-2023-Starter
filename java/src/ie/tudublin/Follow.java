@@ -12,7 +12,8 @@ public class Follow extends PApplet
 
     public Follow(TableRow tr)
     {
-        this(
+        this
+        (
             tr.getString("word"), 
             tr.getInt("count")
         );
