@@ -3,12 +3,13 @@ package ie.tudublin;
 import java.util.ArrayList;
 
 import processing.core.PApplet;
+import processing.data.TableRow;
 
 public class DANI extends PApplet {
-
 	
 
-	public void settings() {
+	public void settings() 
+	{
 		size(1000, 1000);
 		//fullScreen(SPAN);
 	}
@@ -20,13 +21,16 @@ public class DANI extends PApplet {
         return null;
     }
 
-	public void setup() {
-		colorMode(HSB);
+	public void setup() 
+	{
+		colorMode(RGB);
+
 
        
 	}
 
-	public void keyPressed() {
+	public void keyPressed() 
+	{
 
 	}
 
@@ -40,5 +44,10 @@ public class DANI extends PApplet {
 		textSize(20);
         textAlign(CENTER, CENTER);
         
+	}
+
+	public void Follow()
+	{
+
 	}
 }
