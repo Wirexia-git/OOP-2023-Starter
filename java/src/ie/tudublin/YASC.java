@@ -90,7 +90,6 @@ public class YASC extends PApplet
 		s1.toUpperCase()
 		s1.compareTo(s)
 		s1.equals
-		s1.
 
 		println(s1);
 		*/
